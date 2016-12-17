@@ -24,14 +24,28 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
+
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
+STATIC_PATHS = ['images', 'static']
+
+CUSTOM_CSS = 'static/custom_style.css'
+
+# Mardown extension
+# MD_EXTENSIONS = ['extra']
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'http://fr.linkedin.com/pub/nicolas-drufin/'),
+          ('github', 'https://github.com/Starfight/'),
+          ('facebook', 'http://www.facebook.com/nicolas.drufin'),
+          ('twitter', 'https://twitter.com/Magikhaos'),
+          ('envelope-o', 'mailto:nicolas.drufin@ensc.fr'),
+          ('rss', '/feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
 
