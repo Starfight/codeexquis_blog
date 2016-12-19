@@ -6,9 +6,11 @@ THEME = 'Flex'
 
 AUTHOR = 'Nicolas Drufin'
 SITENAME = 'Code exquis'
-SITEURL = ''
+SITETITLE = AUTHOR
+SITEURL = 'http://codexquis.ddns.net/'
 SITESUBTITLE = 'Ingénieur Big Data & UX'
 SITELOGO = SITEURL + '/images/dcns.jpg'
+FAVICON = '/images/favicon.ico'
 
 PATH = 'content'
 
@@ -24,7 +26,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = ()
+LINKS = (('Portfolio', 'http://magikhaos.free.fr/nicolasdrufin'),)
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
@@ -38,6 +40,9 @@ CUSTOM_CSS = 'static/custom_style.css'
 
 # Mardown extension
 # MD_EXTENSIONS = ['extra']
+
+# Code style
+PYGMENTS_STYLE = 'monokai'
 
 # Social widget
 SOCIAL = (('linkedin', 'http://fr.linkedin.com/pub/nicolas-drufin/'),
