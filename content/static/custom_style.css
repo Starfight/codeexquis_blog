@@ -2,4 +2,5 @@ abbr, acronym
 {
 	border-bottom: .1em dashed;
 	cursor: help;
+	text-decoration: none;
 }
