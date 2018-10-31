@@ -60,10 +60,12 @@ DEFAULT_PAGINATION = 10
 MAIN_MENU = True
 
 # Enable i18n plugin, probably you already have some others here.
-PLUGIN_PATHS = ['../pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['i18n_subsites']
 # Enable Jinja2 i18n extension used to parse translations.
-JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
 
 # Default theme language.
 I18N_TEMPLATES_LANG = 'en'
