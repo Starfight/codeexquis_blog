@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://blog.hackera.fr'
+SITEURL = 'https://blog.hackera.fr'
 SITELOGO = SITEURL + '/images/dcns.jpg'
 RELATIVE_URLS = False
 
