@@ -26,7 +26,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Portfolio', 'http://magikhaos.free.fr/nicolasdrufin'),)
+LINKS = (('Portfolio', 'https://nicolas.drufin.hackera.fr'),)
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
