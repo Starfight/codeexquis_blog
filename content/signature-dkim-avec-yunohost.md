@@ -16,6 +16,7 @@ Tout commence par un mail qui atterrit dans les spams et [une configuration du D
 ## Intégration DKIM façon Yunohost
 
 Yunohost utilise [rspamd](https://www.rspamd.com/) pour son filtre anti-spam, mais aussi pour son module DKIM. Les clés sont générées automatiquement dans `/etc/dkim`. Pour chaque domaine, vous aurez deux fichiers :
+
 * `example.com.mail.key` : la clé privée, à ne pas divulguer
 * `example.com.mail.txt` : l'enregistrement DNS contenant la clé publique
 
