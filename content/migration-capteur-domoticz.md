@@ -1,5 +1,5 @@
 Title: Migration de capteur Domoticz
-Date: 2018-01-20 20:58
+Date: 2019-01-20 20:58
 Slug: migration-capteur-domoticz
 Author: Nicolas Drufin
 category: domotique
