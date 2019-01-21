@@ -1,5 +1,5 @@
 Title: Jouer avec le thermomètre USB Temper v3.1 
-Date: 2019-01-20 21:10
+Date: 2019-01-21 23:53
 Slug: jouer-avec-temper-v3-1
 Author: Nicolas Drufin
 category: domotique
@@ -19,7 +19,7 @@ Après une recherche rapide sur les tickets des projets github faisant l'interfa
 
 ## Péripéties
 
-Le problème, c'est qu'entre temps la version de temper a évolué et depuis la version 2, l'appareil passe maintenant par le bus HID pour communiquer. Impossible donc d'utiliser le code initial qui utilisait libusb pour le temper v1.3.
+Le problème, c'est qu'entre temps la version de temper a évolué et depuis la version 2, l'appareil passe maintenant par le bus HID pour communiquer. Impossible donc d'utiliser le code initial qui utilisait libusb pour le temper v1.3 (413d:2107).
 
 En suivant les instructions trouvées çà et là sur le web, j'ai commencé par faire un script qui utilisait `hid-query` de [edorfaus/TEMPered](https://github.com/edorfaus/TEMPered) pour envoyer les commandes en hexadécimal directement via `/dev/hidraw` du thermomètre USB. Voici à quoi cela ressemblait :
 
