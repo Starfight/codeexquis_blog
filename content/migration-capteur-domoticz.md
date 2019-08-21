@@ -3,7 +3,7 @@ Date: 2019-01-20 20:58
 Slug: migration-capteur-domoticz
 Author: Nicolas Drufin
 category: domotique
-Summary: 
+Summary: Comment faire pour migrer ses données météo vers un nouveau capteur
 
 Dernièrement Weather Underground a publié un communiqué indiquant que le support de son API allait prendre fin en janvier 2019. Le site officiel de Domoticz a donc indiqué une procédure pour passer à un autre fournisseur de données météorologiques : Forecast.io. 
 
