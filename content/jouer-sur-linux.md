@@ -5,7 +5,7 @@ Author: Nicolas Drufin
 category: game
 Summary: Avec l'achat d'un nouveau pc en avril, je suis passé au tout Linux pour la première fois. Plus de dual-boot Windows pour jouer ou procrastiner, l'occasion de revenir sur ces 4 derniers mois où je n'ai pas arrêté le gaming.
 
-Mon vieux triple coeur AMD se faisant vieux après ses 10 ans de loyaux services, j'ai décidé d'investir dans un pc gamer moyenne gamme, tout en restant dans le thème AMD. Pour la configuration, je suis allé piocher dans https://pcpartpicker.com/, voici un apercu du `screenfetch` ci-dessous :
+Mon vieux triple coeur AMD se faisant vieux après ses 10 ans de loyaux services, j'ai décidé d'investir dans un pc gamer moyenne gamme, tout en restant dans le thème AMD. Pour la configuration, je suis allé piocher dans [PCPartPicker](https://pcpartpicker.com/), voici un apercu du `screenfetch` ci-dessous :
 ```
  ██████████████████  ████████     ndrufin@nightfall
  ██████████████████  ████████     OS: Manjaro 18.0.4 Illyria
