@@ -1,5 +1,5 @@
 Title: Jouer sur Linux
-Date: 2019-08-21 23:35
+Date: 2019-11-09 16:10
 Slug: jouer-sur-linux
 Author: Nicolas Drufin
 category: game
@@ -47,21 +47,21 @@ Pour les jeux non nativement compatible qui ne rentrent pas dans le cadre Steam/
 
 La manipulation dans ce cas est un peu plus délicate, on construit un environnement Windows virtuel où les programmes vont tourner dans une instance de Wine. Dans le cas de jeux qui évoluent constamment comme le MOBA de Riot, le code de Wine doit évoluer sans cesse à chaque mise à jour majeure, ce qui impose de parfois devoir compiler soit même le code source pour avoir la dernière version. C'est là que les dépôts AUR de Arch Linux prennent tous leur intérêt puisqu'il permettent de compiler des package à partir de dépôt Git. Une fois la version de Wine compatible récupérée et compilée, on émule l'installation Windows de League of Legends, puis on lance le jeu directement dans l'environnement.
 
-Malgré le bricolage que cela impose, le jeu reste très stable pendant la durée de compatibilité entre 2 mises à jour du jeu. De manière très subjective, je n'ai eu aucun soucis de plantage du jeu sur Linux, ce qui n'était pas le cas sur Windows. L'inconvénient majeur, comme toujours, c'est que l'on est sur un jeu qui évolue sans support *officiel* de l'éditeur, ce qui signifie parfois avoir un temps d'attente entre la sortie de la mise à jour et le patch de Wine. Fort heureusement, la communauté est très réactive et généralement cela ne dure pas plus de quelques jours. A titre d'exemple, pour le passage en 2.19 d'octobre a été corrigé en 3 jours (à vérifier).
+Malgré le bricolage que cela impose, le jeu reste très stable pendant la durée de compatibilité entre 2 mises à jour du jeu. De manière très subjective, je n'ai eu aucun soucis de plantage du jeu sur Linux, ce qui n'était pas le cas sur Windows. L'inconvénient majeur, comme toujours, c'est que l'on est sur un jeu qui évolue sans support *officiel* de l'éditeur, ce qui signifie parfois avoir un temps d'attente entre la sortie de la mise à jour et le patch de Wine. Fort heureusement, la [communauté](https://reddit.com/r/leagueoflinux) est très réactive et généralement cela ne dure pas plus de quelques jours. A titre d'exemple, pour le passage en 2.19 d'octobre a été corrigé en moins d'une semaine.
 
 Tout cela parait trop compliqué ? Il existe une alternative quand on veut se passer de tout ça : Lutris. Le logiciel intègre des configurations d'environnement tout fait pour des jeux comme LoL.
 
-## Les plateformes propriétaires : bêtes noires du jeu sur Linux
+## Les plate-formes propriétaires : bêtes noires du jeu sur Linux
 
-Le plus gros problème actuel auquel se confronte le jeu sur Linux sont les plateformes propriétaires des éditeurs. Face au succès de Steam et à certaines pratiques commerciales qui peuvent être discutables, de nombreux éditeurs ont voulu sortir leurs propres plateformes de jeux.
+Le plus gros problème actuel auquel se confronte le jeu sur Linux sont les plate-formes propriétaires des éditeurs. Face au succès de Steam et à certaines pratiques commerciales qui peuvent être discutables, de nombreux éditeurs ont voulu sortir leurs propres plate-formes de jeux.
 
-La plupart ne sont malheureusement pas compatible Linux, les meilleures comme GoG proposent des jeux Linux mais uniquement sur leur site web, les pires imposent Windows comme seul système d'exploitation compatible, en soutenant le monopole jusque dans leur communication marketing.
+La plupart ne sont malheureusement pas compatible Linux, les meilleures comme GoG proposent des jeux Linux mais uniquement sur leur site web, les pires imposent Windows comme seul système d'exploitation compatible, en soutenant le monopole jusque dans [leur communication marketing](https://twitter.com/TimSweeneyEpic/status/964284402741149698).
 
 ## L'avenir du jeu sur Linux
 
-Tout comme on annonce tout les ans l'année du bureau Linux chez les utilisateurs, les rumeurs vont bon train pour dire que Stavia de Google va permettre de donner un coup de pouce aux jeux sur Linux, ou au contraire que la plateforme Xbox de Microsoft va l'enterrer. Ce qui est certain c'est que depuis la sortie de Shadow et son pc dans le cloud pour le jeu, cela va probablement exploser les prochaines années. Est-ce que les infrastructures sont prêtes pour ça ? Est-ce que le succès sera au rendez-vous ? C'est un autre débat, mais je m'accorde plus sur l'idée que ça n'aura pas forcément une grosse influence sur le jeu local sur Linux.
+Tout comme on annonce tous les ans l'[année du bureau Linux](https://i.imgur.com/Okbs2oG.jpg), les rumeurs vont bon train pour dire que Stavia de Google va permettre de donner un coup de pouce aux jeux sur Linux, ou au contraire que Xbox Game Pass de Microsoft va l'enterrer. Ce qui est certain c'est que depuis la sortie de Shadow et son pc dans le cloud pour le jeu, cela va probablement exploser les prochaines années. Est-ce que les infrastructures sont prêtes pour ça ? Est-ce que le succès auprès des utilisateurs sera au rendez-vous ? C'est un autre débat, mais je m'accorde plus sur l'idée que ça n'aura pas forcément une grosse influence sur le jeu local sur Linux.
 
-L'avenir se jouera plutôt en faveur de Linux si la communauté reste constante voire s'élargie. Et c'est le sens de mon message dans cet article : casser cette idée reçue qui persiste comme quoi Linux c'est sympa pour le développeur mais pas pour le joueur. D'autant plus que grâce à des initiatives comme Lutris, ce n'est plus uniquement à la portée du bidouilleur.
+L'avenir se jouera plutôt en faveur de Linux si la communauté reste constante voire s’élargit. Et c'est le sens de mon message dans cet article : casser cette idée reçue qui persiste comme quoi Linux c'est sympa pour le bidouilleur mais pas pour le joueur. D'autant plus que grâce à des initiatives comme Lutris, ce n'est plus uniquement à la portée du dernier crack en informatique.
 
 *[DE]: Desktop Environment
 *[LoL]: League of Legends
