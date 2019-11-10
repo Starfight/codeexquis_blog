@@ -8,15 +8,13 @@ AUTHOR = 'Nicolas Drufin'
 SITENAME = 'Code exquis'
 SITETITLE = AUTHOR
 SITEURL = 'http://localhost:8000/'
-SITESUBTITLE = 'Ingénieur Big Data & UX'
-SITELOGO = SITEURL + '/images/dcns.jpg'
+SITESUBTITLE = 'Ingénieur DevOps'
+SITELOGO = SITEURL + '/images/photo.jpg'
 FAVICON = '/images/favicon.ico'
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
-
-DEFAULT_LANG = 'fr'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -49,7 +47,7 @@ SOCIAL = (('linkedin', 'http://fr.linkedin.com/pub/nicolas-drufin/'),
           ('github', 'https://github.com/Starfight/'),
           ('facebook', 'http://www.facebook.com/nicolas.drufin'),
           ('twitter', 'https://twitter.com/Magikhaos'),
-          ('envelope-o', 'mailto:nicolas.drufin@ensc.fr'),
+          ('envelope-o', 'mailto:nicolas.drufin@hackera.fr'),
           ('rss', '/feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
@@ -72,4 +70,6 @@ I18N_TEMPLATES_LANG = 'en'
 # Your language.
 DEFAULT_LANG = 'fr'
 OG_LOCALE = 'fr_FR'
-LOCALE = 'fr'
+LOCALE = ('fr_FR.utf8', 'fr')
+
+DEFAULT_DATE_FORMAT = '%-d %B %Y'
