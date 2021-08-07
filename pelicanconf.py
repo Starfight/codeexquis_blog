@@ -47,7 +47,7 @@ SOCIAL = (('linkedin', 'http://fr.linkedin.com/pub/nicolas-drufin/'),
           ('github', 'https://github.com/Starfight/'),
           ('facebook', 'http://www.facebook.com/nicolas.drufin'),
           ('twitter', 'https://twitter.com/Magikhaos'),
-          ('envelope-o', 'mailto:nicolas.drufin@hackera.fr'),
+          ('envelope', 'mailto:nicolas.drufin@hackera.fr'),
           ('rss', '/feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
